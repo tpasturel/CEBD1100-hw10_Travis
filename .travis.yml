@@ -5,7 +5,10 @@ python:
  - 3.5
  - 3.7
 
+before install:
+ - sudo pip install -i https://test.pypi.org/simple/ CEBD1100hw8ThibaultPasturel-pkg-tpasturel
+
 script:
- - python3 CEBD1100homework8ThibaultPasturel.py -H
- - python3 CEBD1100homework8ThibaultPasturel.py -c1 ash -c2 alcohol
- - python3 CEBD1100homework8ThibaultPasturel.py -c1 magnesim -c2 flavanoids
+ - python3 Homework8_Package.py -H
+ - python3 Homework8_Package.py -c1 ash -c2 alcohol
+ - python3 Homework8_Package.py -c1 magnesim -c2 flavanoids
